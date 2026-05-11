@@ -167,7 +167,7 @@ body {
   outline: none;
 }
 
-#btn-entrar {
+#btn-criar {
   display: block;
   margin: 2rem auto 0;
   background-color: #1a5fcc;
@@ -363,4 +363,124 @@ body {
     font-size: 22px;
   }
 
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+#btn-listar {
+  display: block;
+  margin: 2rem auto 0;
+  background-color: #1a5fcc;
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 50px;
+  padding: 0.7rem 3.5rem;
+  cursor: pointer;
+
+}
+
+.tela-listar{
+    width: 80%;
+    height: 650px;
+    background-color: #0754b8;
+    margin: 40px auto;
+    border-radius: 18px;
+    position: relative;
+    padding-top: 25px;
+}
+
+.topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.buscar{
+    background-color: #d9d9d9;
+    border-radius: 12px;
+    padding: 5px 10px;
+}
+
+.buscar input{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-weight: bold;
+    font-size: 20px;
+    width: 210px;
+}
+
+.btn-voltar{
+    position: absolute;
+    right: 65px;
+    background-color: #15376b;
+    color: white;
+    border: none;
+    border-radius: 22px;
+    padding: 13px 28px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card-listar{
+    background-color: white;
+    width: 360px;
+    margin: 40px auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.logo-listar{
+    display: block;
+    width: 140px;
+    margin: 0 auto 15px;
+}
+
+.card-listar label{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.card-listar input{
+    width: 100%;
+    height: 36px;
+    border: none;
+    border-radius: 8px;
+    background-color: #d9d9d9;
+}
+ .container {
+background-color: #0754b8;
+padding-top: 50px;
+padding-bottom: 50px;
+border-radius: 20px;
+max-width: 700px;
+}
+.btn-voltar {
+background-color: #15376b;
+color: white;
+border: none;
+border-radius: 15px;
+padding: 10px 30px;
+font-size: 20px;
+font-weight: bold;
+}
+.input-group {
+display: flex;
+justify-content: space-between;
+ }
+.form-label {
+font-weight: bold;
+}
+.form-control {
+border-radius: 10px;
 }
