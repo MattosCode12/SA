@@ -5,7 +5,7 @@ body {
   padding: 0;
 }
 
-/* LOGIN */
+
 
 .login-page {
   display: flex;
@@ -13,7 +13,7 @@ body {
   justify-content: center;
 }
 
-/* HOME */
+
 
 .home-page {
   margin: 0;
@@ -26,7 +26,7 @@ body {
   padding-top: 40px;
 }
 
-/* NAVBAR */
+
 
 .navbar-custom {
   background-color: #0d4db3;
@@ -77,7 +77,7 @@ body {
   font-weight: bold;
 }
 
-/* BOTÕES HOME */
+
 
 .btn-home-option {
   width: 580px;
@@ -96,7 +96,7 @@ body {
   color: white;
 }
 
-/* LOGIN CARD */
+
 
 #card-login {
   width: 820px;
@@ -255,7 +255,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* MAPA */
+
 
 .mapa-container {
   width: 100%;
@@ -304,7 +304,7 @@ body {
   color: #63d936;
 }
 
-/* BOTÕES MAPA */
+
 
 .btn-mapa {
   position: absolute;
@@ -327,7 +327,7 @@ body {
   right: 20px;
 }
 
-/* RESPONSIVO */
+
 
 @media (max-width: 1200px) {
 
