@@ -484,3 +484,182 @@ font-weight: bold;
 .form-control {
 border-radius: 10px;
 }
+.sensores-page {
+  min-height: 100vh;
+  background-color: #0754b8;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-sensores {
+  width: 100%;
+  height: 95px;
+  background-color: #0754b8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 24px;
+  position: relative;
+}
+
+#logo-sensores {
+  width: 90px;
+}
+
+.buscar-sensor {
+  width: 250px;
+  height: 36px;
+  background-color: #d9d9d9;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.buscar-sensor input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding-left: 15px;
+  font-size: 20px;
+  font-weight: 900;
+  color: #555;
+}
+
+.buscar-sensor input::placeholder {
+  color: #555;
+}
+
+.buscar-sensor button {
+  width: 48px;
+  height: 100%;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.botoes-topo {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-topo {
+  background-color: #15376b;
+  color: white;
+  border: none;
+  border-radius: 22px;
+  padding: 10px 24px;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.btn-topo:hover {
+  background-color: #102b57;
+}
+
+.sensores-container {
+  width: 100%;
+  padding: 25px 55px 40px;
+}
+
+.sensor-card {
+  width: 240px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  font-weight: 900;
+  color: #111;
+}
+
+.sensor-linha {
+  min-height: 43px;
+  border-bottom: 3px solid #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 6px 10px;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.sensor-linha:last-child {
+  border-bottom: none;
+}
+
+.sensor-titulo {
+  position: relative;
+}
+
+.sensor-titulo span {
+  width: 100%;
+}
+
+.sensor-titulo button {
+  width: 38px;
+  height: 100%;
+  border: none;
+  border-left: 3px solid #111;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sensor-desc {
+  min-height: 50px;
+}
+
+.btn-adicionar-sensor {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  border: 7px solid #0083c8;
+  background-color: #0099d8;
+  color: white;
+  font-size: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-adicionar-sensor:hover {
+  background-color: #0087c2;
+}
+
+@media (max-width: 768px) {
+  .navbar-sensores {
+    height: auto;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .buscar-sensor {
+    position: static;
+    transform: none;
+    width: 85%;
+  }
+
+  .botoes-topo {
+    justify-content: center;
+  }
+
+  .sensores-container {
+    padding: 25px 20px;
+  }
+
+  .sensor-card {
+    width: 270px;
+  }
+}
