@@ -8,5 +8,6 @@ Os componentes são as peças, dispositivos ou módulos individuais que constitu
 ## como se instala
 A instalação e configuração básica de um sistema operacional (como Windows ou Linux) consiste em preparar o disco, instalar os arquivos essenciais, criar uma conta de usuário e atualizar o sistema. Este processo garante que o seu computador esteja pronto para receber os programas que você precisa utilizar. 
 
+![install][def]
 
-[def]: image.png
+[def]: assets/img/image.png
